@@ -13,9 +13,9 @@ export default {
   },
   plugins: [
     shebang(),
-    resolve({ browser: false }),
-    commonjs(),
     typescript(),
+    commonjs({ extensions: ['.ts'] }),
+    resolve(),
     terser(),
   ],
 };

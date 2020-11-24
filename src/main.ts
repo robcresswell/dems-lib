@@ -1,8 +1,7 @@
+#!/usr/bin/env node
 import { green } from './colors';
 
-async function main() {
-
-}
+async function main() {}
 
 main()
   .then(() => {
